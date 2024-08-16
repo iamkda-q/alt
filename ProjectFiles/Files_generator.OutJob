@@ -111,7 +111,7 @@ OutputType4=Schematic Print
 OutputName4=Schematic Prints
 OutputCategory4=Documentation
 OutputDocumentPath4=[Project Physical Documents]
-OutputVariantName4=-03
+OutputVariantName4=-02
 OutputEnabled4=1
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
@@ -123,7 +123,7 @@ OutputEnabled4_OutputMedium7=0
 OutputEnabled4_OutputMedium8=0
 OutputEnabled4_OutputMedium9=0
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.99|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.99|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=[Project Physical Documents]
 OutputType5=PCBDrawing
@@ -226,7 +226,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\mihal\YandexDisk\4 Текущие проекты\БУ-35 КАМАЗ\8 Печатные платы\СИУ-45\Плата транзистора t+\ProjectFiles\3D\2024-02-20 ВКФП.001.01.03.02.00.PDF
+OutputFilePath3=F:\Work\Пробник альтиум\PCB_Project_11\ProjectFiles\Э3\2024-08-16 PCB_Project_11 Э3.PDF
 ReleaseManaged3=0
 OutputBasePath3=ProjectFiles\
 OutputPathMedia3=Э3
@@ -237,7 +237,7 @@ OutputPathOutputerValue3=
 OutputFileName3=Files_generator.PDF
 OutputFileNameMulti3=
 UseOutputNameForMulti3=0
-OutputFileNameSpecial3==CurrentDate+' '+ProjectName+' '+'Э3'
+OutputFileNameSpecial3==CurrentDate+' '+ProjectName+VariantName+' '+'Э3'
 OpenOutput3=0
 PromptOverwrite3=1
 PublishMethod3=0
@@ -349,7 +349,7 @@ OpenOutput9=0
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\Дмитрий\Desktop\Work\YandexDisk\4 Текущие проекты\БУ-35 КАМАЗ\8 Печатные платы\БУ-35\Платы датчиков тока\12В вторичка\ProjectFiles\3D\2024-01-14 ВКПФ.12V_2.PDF
 OpenOutputs2=0
-RelativeOutputPath3=C:\Users\mihal\YandexDisk\4 Текущие проекты\БУ-35 КАМАЗ\8 Печатные платы\СИУ-45\Плата транзистора t+\ProjectFiles\3D\2024-02-20 ВКФП.001.01.03.02.00.PDF
+RelativeOutputPath3=F:\Work\Пробник альтиум\PCB_Project_11\ProjectFiles\Э3\2024-08-16 PCB_Project_11 Э3.PDF
 OpenOutputs3=0
 RelativeOutputPath4=D:\YandexDisk\4 Текущие проекты\БУ-35 КАМАЗ\8 Печатные платы\СИУ-45\Плата транзистора\ProjectFiles\СБ\Files_generator.PDF
 OpenOutputs4=1
