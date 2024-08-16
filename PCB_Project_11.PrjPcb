@@ -45,6 +45,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=-01
 
 [Preferences]
 PrefsVaultGUID=
@@ -68,23 +69,6 @@ GenerateClassCluster=0
 DocumentUniqueId=OYPCPOMD
 
 [Document2]
-DocumentPath=ProjectFiles\Э3\PCB_Project_11 Э3 (Контроллер).SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TTTEKBPQ
-
-[Document3]
 DocumentPath=ProjectFiles\Files_generator.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -101,7 +85,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document3]
 DocumentPath=ProjectFiles\PCB\PCB_Project_11.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -118,7 +102,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BCULIWEA
 
-[Document5]
+[Document4]
 DocumentPath=ProjectFiles\BOM\PCB_Project_11.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -135,7 +119,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document5]
 DocumentPath=ProjectFiles\СБ\PCB_Project_11.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,6 +135,109 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XUVYLCSF
+
+[ProjectVariant1]
+UniqueID=A4F9D9B5-DB5E-4110-A726-001DD7B32DAD
+Description=-01
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=0F0CAEB4-F0D8-4491-9D9C-FB48A24E7A26
+Description=-02
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=XP3|UniqueId=\UJNSLFWV|Kind=2|AlternatePart=15EDGRM-3.5-02P|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=F:\YandexDisk\Work\Programs\Altium Designer\Libraries\SCH\Connectors_DEGSON.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=15EDGRM-3.5-02P|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors_DEGSON.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=15EDGRM-3.5-02P-1Y-00A(H) (top)|AltLibLink_IsSameFootprint=False
+ParamVariation1=ParameterName=1|VariantValue=*
+ParamDesignator1=XP3
+ParamVariation2=ParameterName=2|VariantValue=*
+ParamDesignator2=XP3
+ParamVariation3=ParameterName=Category|VariantValue=Вилка
+ParamDesignator3=XP3
+ParamVariation4=ParameterName=Comment|VariantValue=15EDGRM-3.5-02P
+ParamDesignator4=XP3
+ParamVariation5=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator5=XP3
+ParamVariation6=ParameterName=ComponentLink1Description|VariantValue=degson_details
+ParamDesignator6=XP3
+ParamVariation7=ParameterName=ComponentLink1URL|VariantValue=https://www.degson.com/content/details_552_4151668.html?lang=en
+ParamDesignator7=XP3
+ParamVariation8=ParameterName=Description|VariantValue=horizontal, screw, 7A, 250V, 3.5mm
+ParamDesignator8=XP3
+ParamVariation9=ParameterName=Footprint|VariantValue=15EDGRM-3.5-02P-1Y-00A(H) (top)
+ParamDesignator9=XP3
+ParamVariation10=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator10=XP3
+ParamVariation11=ParameterName=Library Reference|VariantValue=15EDGRM-3.5-02P
+ParamDesignator11=XP3
+ParamVariation12=ParameterName=Manufacturer|VariantValue=DEGSON
+ParamDesignator12=XP3
+ParamVariation13=ParameterName=ManufacturerPartNumber|VariantValue=15EDGRM-3.5-02P
+ParamDesignator13=XP3
+ParamVariation14=ParameterName=PCB3D|VariantValue= 
+ParamDesignator14=XP3
+ParamVariation15=ParameterName=Pin Info|VariantValue= 
+ParamDesignator15=XP3
+ParamVariation16=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator16=XP3
+ParamVariation17=ParameterName=Simulation|VariantValue= 
+ParamDesignator17=XP3
+ParamVariation18=ParameterName=Наименование|VariantValue==ManufacturerPartNumber+' '+Manufacturer
+ParamDesignator18=XP3
+Variation2=Designator=XP4|UniqueId=\CPOZCYON|Kind=2|AlternatePart=15EDGRM-3.5-02P|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=F:\YandexDisk\Work\Programs\Altium Designer\Libraries\SCH\Connectors_DEGSON.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=15EDGRM-3.5-02P|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Connectors_DEGSON.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=15EDGRM-3.5-02P-1Y-00A(H) (top)|AltLibLink_IsSameFootprint=False
+ParamVariation19=ParameterName=1|VariantValue=*
+ParamDesignator19=XP4
+ParamVariation20=ParameterName=2|VariantValue=*
+ParamDesignator20=XP4
+ParamVariation21=ParameterName=Category|VariantValue=Вилка
+ParamDesignator21=XP4
+ParamVariation22=ParameterName=Comment|VariantValue=15EDGRM-3.5-02P
+ParamDesignator22=XP4
+ParamVariation23=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator23=XP4
+ParamVariation24=ParameterName=ComponentLink1Description|VariantValue=degson_details
+ParamDesignator24=XP4
+ParamVariation25=ParameterName=ComponentLink1URL|VariantValue=https://www.degson.com/content/details_552_4151668.html?lang=en
+ParamDesignator25=XP4
+ParamVariation26=ParameterName=Description|VariantValue=horizontal, screw, 7A, 250V, 3.5mm
+ParamDesignator26=XP4
+ParamVariation27=ParameterName=Footprint|VariantValue=15EDGRM-3.5-02P-1Y-00A(H) (top)
+ParamDesignator27=XP4
+ParamVariation28=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator28=XP4
+ParamVariation29=ParameterName=Library Reference|VariantValue=15EDGRM-3.5-02P
+ParamDesignator29=XP4
+ParamVariation30=ParameterName=Manufacturer|VariantValue=DEGSON
+ParamDesignator30=XP4
+ParamVariation31=ParameterName=ManufacturerPartNumber|VariantValue=15EDGRM-3.5-02P
+ParamDesignator31=XP4
+ParamVariation32=ParameterName=PCB3D|VariantValue= 
+ParamDesignator32=XP4
+ParamVariation33=ParameterName=Pin Info|VariantValue= 
+ParamDesignator33=XP4
+ParamVariation34=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator34=XP4
+ParamVariation35=ParameterName=Simulation|VariantValue= 
+ParamDesignator35=XP4
+ParamVariation36=ParameterName=Наименование|VariantValue==ManufacturerPartNumber+' '+Manufacturer
+ParamDesignator36=XP4
+ParamVariationCount=36
+
+[ProjectVariant3]
+UniqueID=FF907C44-3021-49A0-8BC9-74778BC31279
+Description=-03
+AllowFabrication=0
+ParameterCount=0
+VariationCount=5
+Variation1=Designator=R6|UniqueId=\MIQIWIYT|Kind=1|AlternatePart= 
+Variation2=Designator=R5|UniqueId=\ZRNUZLDC|Kind=1|AlternatePart= 
+Variation3=Designator=R7|UniqueId=\NFQPHKAN|Kind=1|AlternatePart= 
+Variation4=Designator=XP3|UniqueId=\UJNSLFWV|Kind=1|AlternatePart= 
+Variation5=Designator=XP4|UniqueId=\CPOZCYON|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [Parameter1]
 Name=Вид_документа
