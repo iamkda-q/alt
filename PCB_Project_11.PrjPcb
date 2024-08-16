@@ -45,7 +45,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=-01
+CurrentVariant=-02
 
 [Preferences]
 PrefsVaultGUID=
@@ -103,23 +103,6 @@ GenerateClassCluster=0
 DocumentUniqueId=BCULIWEA
 
 [Document4]
-DocumentPath=ProjectFiles\BOM\PCB_Project_11.BomDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document5]
 DocumentPath=ProjectFiles\СБ\PCB_Project_11.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -135,6 +118,74 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XUVYLCSF
+
+[Document5]
+DocumentPath=ProjectFiles\GOST BOM\PCB_Project_11_ПЭ3.xls
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document6]
+DocumentPath=ProjectFiles\GOST BOM\PCB_Project_11_ВП.xls
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document7]
+DocumentPath=ProjectFiles\GOST BOM\PCB_Project_11.xls
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document8]
+DocumentPath=ProjectFiles\BOM\PCB_Project_11.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=A4F9D9B5-DB5E-4110-A726-001DD7B32DAD
@@ -240,228 +291,228 @@ Variation5=Designator=XP4|UniqueId=\CPOZCYON|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=Вид_документа
-Value=ООО "НПП ЦИКЛ ПЛЮС"
+Name=Документация0
+Value=#АБВГ.123456.789 #Схема электрическая принципиальная (Э3)#Э3##1#1#1
 
 [Parameter2]
-Name=Вид_документа_PCB
-Value=Сборочный чертёж
+Name=Документация1
+Value=#АБВГ.123456.789 #Перечень элементов (ПЭ3)#ПЭ3##1#1#1
 
 [Parameter3]
-Name=Вид_документа_SCH
-Value=Схема электрическая принципиальная
+Name=Документация2
+Value=#АБВГ.123456.789 #Сборочный чертеж (СБ)#СБ##1#1#1
 
 [Parameter4]
-Name=Дата_изменения
-Value=
+Name=п_Утв_Р
+Value=Котельников
 
 [Parameter5]
-Name=Дата_изменения_ВП
-Value=
+Name=п_Утв
+Value=Котельников
 
 [Parameter6]
-Name=Дата_изменения_ПЭ3
+Name=п_Т_Контр
 Value=
 
 [Parameter7]
-Name=Дата_изменения_СП
-Value=
+Name=п_Разраб_Р
+Value=Коннов
 
 [Parameter8]
-Name=Документация0
-Value=А3#АБВГ.123456.789 #Сборочный чертеж (СБ)#СБ##
+Name=п_Разраб
+Value=Коннов
 
 [Parameter9]
-Name=Документация1
-Value=А3#АБВГ.123456.789 #Схема электрическая принципиальная (Э3)#Э3##
+Name=п_Пров_Р
+Value=Котельников
 
 [Parameter10]
-Name=Документация2
-Value=А4#АБВГ.123456.789 #Перечень элементов (ПЭ3)#ПЭ3##
+Name=п_Пров
+Value=Котельников
 
 [Parameter11]
-Name=Код_документа
+Name=п_Н_контр_Р
 Value=
 
 [Parameter12]
-Name=Код_документа_PCB
-Value=СБ
+Name=п_Н_контр
+Value=
 
 [Parameter13]
-Name=Код_документа_SCH
-Value=Э3
+Name=п_Доп_графа_Р
+Value=
 
 [Parameter14]
-Name=Литера
+Name=п_Доп_графа
 Value=
 
 [Parameter15]
-Name=Литера2
+Name=Характер_работы
 Value=
 
 [Parameter16]
-Name=Литера3
+Name=Формат_PCB
 Value=
 
 [Parameter17]
-Name=Материалы0
-Value=Припой ПОС-61 ГОСТ 21931-76 (г)#10#г##
+Name=Указания_изменение_СП
+Value=
 
 [Parameter18]
-Name=Наименование
-Value=Плата шаблонная
+Name=Указания_изменение_ПЭ3
+Value=
 
 [Parameter19]
-Name=Наименование1
-Value=Плата шаблонная
+Name=Указания_изменение_ВП
+Value=
 
 [Parameter20]
-Name=Наименование2
+Name=Указания_изменение
 Value=
 
 [Parameter21]
-Name=Наименование3
-Value=
+Name=Раздел_SCH
+Value=09.04.24
 
 [Parameter22]
-Name=Наименование_PCB
-Value=Плата шаблонная
+Name=Раздел_PCB
+Value=09.04.2024
 
 [Parameter23]
-Name=Номер_документа_изменение
-Value=
+Name=Раздел
+Value=V1.0
 
 [Parameter24]
-Name=Номер_документа_изменение_ВП
-Value=
+Name=Проект
+Value=Кодовое название проекта
 
 [Parameter25]
-Name=Номер_документа_изменение_ПЭ3
+Name=Порядковый_номер_изменения_СП
 Value=
 
 [Parameter26]
-Name=Номер_документа_изменение_СП
+Name=Порядковый_номер_изменения_ПЭ3
 Value=
 
 [Parameter27]
-Name=Обозначение
-Value=АБВГ.123456.789
+Name=Порядковый_номер_изменения_ВП
+Value=
 
 [Parameter28]
-Name=Обозначение_PCB
-Value=АБВГ.123456.789.01
+Name=Порядковый_номер_изменения
+Value=
 
 [Parameter29]
-Name=Обозначение_Код
-Value=АБВГ.123456.789 Э3
+Name=ПервПримен
+Value=АБВГ.123456.555
 
 [Parameter30]
 Name=Перв.Примен.
 Value=АБВГ.123456.555
 
 [Parameter31]
-Name=ПервПримен
-Value=АБВГ.123456.555
+Name=Обозначение_Код
+Value=АБВГ.123456.789 Э3
 
 [Parameter32]
-Name=Порядковый_номер_изменения
-Value=
+Name=Обозначение_PCB
+Value=АБВГ.123456.789.01
 
 [Parameter33]
-Name=Порядковый_номер_изменения_ВП
-Value=
+Name=Обозначение
+Value=АБВГ.123456.789
 
 [Parameter34]
-Name=Порядковый_номер_изменения_ПЭ3
+Name=Номер_документа_изменение_СП
 Value=
 
 [Parameter35]
-Name=Порядковый_номер_изменения_СП
+Name=Номер_документа_изменение_ПЭ3
 Value=
 
 [Parameter36]
-Name=Проект
-Value=Кодовое название проекта
+Name=Номер_документа_изменение_ВП
+Value=
 
 [Parameter37]
-Name=Раздел
-Value=V1.0
+Name=Номер_документа_изменение
+Value=
 
 [Parameter38]
-Name=Раздел_PCB
-Value=09.04.2024
+Name=Наименование_PCB
+Value=Плата шаблонная
 
 [Parameter39]
-Name=Раздел_SCH
-Value=09.04.24
+Name=Наименование3
+Value=
 
 [Parameter40]
-Name=Указания_изменение
+Name=Наименование2
 Value=
 
 [Parameter41]
-Name=Указания_изменение_ВП
-Value=
+Name=Наименование1
+Value=Плата шаблонная
 
 [Parameter42]
-Name=Указания_изменение_ПЭ3
-Value=
+Name=Наименование
+Value=Плата шаблонная
 
 [Parameter43]
-Name=Указания_изменение_СП
+Name=Литера3
 Value=
 
 [Parameter44]
-Name=Формат_PCB
+Name=Литера2
 Value=
 
 [Parameter45]
-Name=Характер_работы
+Name=Литера
 Value=
 
 [Parameter46]
-Name=п_Доп_графа
-Value=
+Name=Код_документа_SCH
+Value=Э3
 
 [Parameter47]
-Name=п_Доп_графа_Р
-Value=
+Name=Код_документа_PCB
+Value=СБ
 
 [Parameter48]
-Name=п_Н_контр
+Name=Код_документа
 Value=
 
 [Parameter49]
-Name=п_Н_контр_Р
+Name=Дата_изменения_СП
 Value=
 
 [Parameter50]
-Name=п_Пров
-Value=Котельников
-
-[Parameter51]
-Name=п_Пров_Р
-Value=Котельников
-
-[Parameter52]
-Name=п_Разраб
-Value=Коннов
-
-[Parameter53]
-Name=п_Разраб_Р
-Value=Коннов
-
-[Parameter54]
-Name=п_Т_Контр
+Name=Дата_изменения_ПЭ3
 Value=
 
+[Parameter51]
+Name=Дата_изменения_ВП
+Value=
+
+[Parameter52]
+Name=Дата_изменения
+Value=
+
+[Parameter53]
+Name=Вид_документа_SCH
+Value=Схема электрическая принципиальная
+
+[Parameter54]
+Name=Вид_документа_PCB
+Value=Сборочный чертёж
+
 [Parameter55]
-Name=п_Утв
-Value=Котельников
+Name=Вид_документа
+Value=ООО "НПП ЦИКЛ ПЛЮС"
 
 [Parameter56]
-Name=п_Утв_Р
-Value=Котельников
+Name=Материалы0
+Value=Припой ПОС-61 ГОСТ 21931-76 (г)#2#г##1#1#1
 
 [Configuration1]
 Name=Sources
